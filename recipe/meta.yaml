@@ -1,6 +1,6 @@
 {% set name = "djangorestframework_simplejwt" %}
-{% set version = "3.3" %}
-{% set sha256 = "9796dd89086999993475a25f2a8ba39b56a5b372cf9b2475d9b29afcf7737be6" %}
+{% set version = "4.1.0" %}
+{% set sha256 = "03c145cc790bdf7265e2361e95a01bd182d241fbd6ed22c8e6f17d1ebe87ead0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
