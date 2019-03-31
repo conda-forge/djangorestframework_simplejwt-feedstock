@@ -1,6 +1,6 @@
 {% set name = "djangorestframework_simplejwt" %}
-{% set version = "4.1.0" %}
-{% set sha256 = "03c145cc790bdf7265e2361e95a01bd182d241fbd6ed22c8e6f17d1ebe87ead0" %}
+{% set version = "4.1.1" %}
+{% set sha256 = "2f0eecb1c8d48c5bcca05af864ce7804ddc33604979a00fa902714169b2374d2" %}
 
 package:
   name: {{ name|lower }}
