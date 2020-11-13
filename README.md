@@ -5,9 +5,13 @@ Home: https://github.com/davesque/django-rest-framework-simplejwt
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/djangorestframework_simplejwt-feedstock/blob/master/LICENSE.txt)
 
 Summary: A JSON Web Token authentication plugin for the Django REST Framework.
+
+Development: https://github.com/davesque/django-rest-framework-simplejwt
+
+Documentation: https://www.pydoc.io/pypi/djangorestframework-simplejwt-2.0.5/
 
 Simple JWT provides a JSON Web Token authentication backend for the Django REST Framework. It aims to provide an out-of-the-box solution for JWT authentication which avoids some of the common pitfalls of the JWT specification. Assuming users of the library don't extensively and invasively subclass everything, Simple JWT's behavior shouldn't be surprising. Settings variable defaults should be safe.
 
